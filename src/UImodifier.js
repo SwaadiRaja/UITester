@@ -8,6 +8,7 @@ function UImodifier() {
 
   return (
     <div className="ui-container">
+      <button className="login-btn">Login</button>
       <h1>Copilot UI Updater</h1>
 
       <div className="field">
