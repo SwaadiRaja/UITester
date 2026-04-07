@@ -5,6 +5,7 @@
   padding: 2rem;
   border-radius: 8px;
   color: #000;
+  position: relative;
 }
 
 .field {
@@ -34,4 +35,22 @@ textarea {
   margin-top: 1rem;
   font-size: 12px;
   color: #555;
+}
+
+.login-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
 }
